@@ -2,8 +2,8 @@
 
 require_once 'ular.php';
 
- $robot1=new robot('sssssts',2);
-echo"suara robot1 :".$ular->suara.'<br>';
-echo"berat robot1 :".$ular->berat.'<br>';
+ $ular=new robot('sssssts',2);
+echo"suara ular :".$ular->suara.'<br>';
+echo"berat ular :".$ular->berat.'<br>';
 
 ?>
